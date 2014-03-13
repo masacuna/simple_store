@@ -31,14 +31,16 @@
 
 <br>
 
-<% fnum = 0 %>
-<% snum = 100 %>
-<% while fnum < snum do %>
-<% fnum += 1 %>
+<!--<% fnum = 0 %>-->
+<!--<% snum = 100 %>-->
+<!--<% while fnum < snum do %>-->
+<!--<% fnum += 1 %>-->
 
-<p> <%= "#{fnum}"' ChunkyBacon' %> </p>
+<!--<p> <%= "#{fnum}"' ChunkyBacon' %> </p>-->
 
-<% end %>
+<!--<% end %>-->
+
+<% 100.times {%>  <h1>"chunkyBacon"</h1> <% } %>
 
 <% %>
 <p>Average Price: <%= @products.sum('price') / @products.all.length %> <p>
